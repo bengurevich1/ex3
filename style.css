@@ -1,0 +1,567 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F2E9E9;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 123px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 500;
+    position: relative;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+}
+
+nav a:hover::before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #F72828;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+
+
+}
+
+.left {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left h1 {
+    /* position: absolute; */
+    font-size: 72px;
+    text-align: left;
+    margin: 5px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    /* margin-top: 200px; */
+    /* flex: 1; */
+    /* margin-left: 200px;  */
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 302px;
+    /* justify-content:flex-end;
+    align-items:flex-start; */
+}
+
+.left h3 {
+    margin: 5px;
+    font-size: 24px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 300px;
+
+    /* line-height: 32px; */
+    /* margin-top: 200px; */
+    /* margin-left: 00px;  */
+
+    color: #000000;
+}
+
+
+footer {
+    width: 100%;
+    height: 41px;
+    background-color: black;
+    /* margin-top: -200px; */
+}
+
+.mydiv {
+    height: 100vh;
+}
+
+#leftTextId {
+    text-align: center;
+}
+
+.squercontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 100%;
+    /* margin-right: 100px; */
+
+
+
+}
+
+.leftInTheContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.rightInTheContainer {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 100%;
+    height: 100%;
+    margin-top: 87px;
+
+}
+
+.rightInTheContainerUp {
+    display: flex;
+    flex-direction: row;
+
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.vertical-squares_right_up {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -25px;
+}
+
+.rightInTheContainerdown {
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.lowest_rightInTheContainerdown {
+    gap: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+
+}
+
+.right_low_rightInTheContainerdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    margin-top: 10px;
+}
+
+
+.square-1 {
+    width: 75px;
+    height: 23px;
+    background-color: #EBEF18;
+}
+
+.square-2 {
+    width: 136px;
+    height: 46px;
+    background-color: #EBEF18;
+}
+
+.square-3 {
+    width: 134px;
+    height: 404px;
+    background-color: #EBEF18;
+}
+
+.square-4 {
+    width: 88px;
+    height: 28px;
+    background-color: #EBEF18;
+}
+
+.squere_in_the_same_row {
+    display: flex;
+    row-gap: 10px;
+}
+
+.square-5 {
+    width: 25px;
+    height: 26px;
+    background-color: #EBEF18;
+    margin: 5px
+}
+
+
+.square-7 {
+    width: 246px;
+    height: 352px;
+    top: 44px;
+    left: 149px;
+    background-color: #EBEF18;
+    align-self: flex-start;
+    margin-right: 14px;
+}
+
+.square-8 {
+    width: 28px;
+    height: 55px;
+    /* margin-left: ; */
+    background-color: #EBEF18;
+}
+
+.square-11 {
+    width: 28px;
+    height: 108px;
+    background-color: #EBEF18;
+}
+
+.square-12 {
+    /* position: absolute;
+    background-color: #EBEF18;
+    width: 55px;
+    height: 105px;
+    margin-top: 10px;
+    margin-left: 233px; */
+    width: 123px;
+    height: 212px;
+    background-color: #EBEF18;
+}
+
+.square-13 {
+    width: 55px;
+    height: 105px;
+    background-color: #EBEF18;
+}
+
+.square-14 {
+    width: 55px;
+    height: 105px;
+    background-color: #EBEF18;
+    margin-left: 33px;
+}
+
+.square-15 {
+    width: 110px;
+    height: 58px;
+    background-color: #EBEF18;
+}
+
+/* ///////////////////////////////////// layout2//////////////////////// */
+.lay2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.lay2 main {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    height: 1400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lay2 footer {
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    height: 41px;
+    bottom: 0;
+    text-align: center;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 88.263%;
+    height: 100%;
+    margin-bottom: 50px;
+    /* background-color: #F72828; */
+}
+
+.lay2 .leftContainer .left {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 457px;
+    /* width: 30%; */
+    /* width: 635px; */
+    /* height: 100vh; */
+    flex-direction: column;
+    margin: 27.5px;
+}
+
+
+.lay2 .side {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* width: 169px; */
+    width: 11.737%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.lay2 .leftContainer .left .square {
+    display: flex;
+    width: 457px;
+    height: 299px;
+    background-color: #C4C4C4;
+    padding-top: 100%;
+    position: relative;
+}
+
+#theSpacielLeft {
+    margin-top: 149.5px;
+}
+
+.blackSquere {
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 00;
+}
+
+.whiteSquere {
+    position: absolute;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    top: 1;
+    left: 6;
+
+}
+
+.blackSquere1 {
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    top: 6;
+    left: 0;
+}
+
+.letters {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 34;
+}
+
+.letter {
+    position: absolute;
+    display: none;
+    font-size: 40px; /* You can adjust the font size as needed */
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* /////////////////layout3///////// */
+.lay3 {
+    position: relative;
+    }
+    
+    .lay3 header {
+    width: 1440px;
+    height: 123px;
+    }
+    
+    .lay3 .blacksquere {
+    position: absolute;
+    background-color: #000000;
+    width: 80px;
+    height: 80px;
+    left: 1336px;
+    top: 21px;
+    }
+    
+    #wrapper {
+    width: 1440px;
+    margin: 0px auto;
+    }
+    
+    .lay3 nav {
+    position: absolute;
+    background-color: #E5E5E5;
+    width: 372px;
+    height: 995px;
+    left: 0px;
+    top: 123px;
+    }
+    
+    .lay3 .blue {
+    position: absolute;
+    width: 104px;
+    height: 995px;
+    left: 1336px;
+    top: 123px;
+    background: rgba(24, 71, 239, 0.3);
+    }
+    
+    .lay3 .yellow {
+    width: 1440px;
+    height: 463px;
+    left: 0px;
+    background: #EBEF18;
+    }
+    
+    .lay3 footer {
+    position: absolute;
+    width: 1440px;
+    height: 41px;
+    left: 0px;
+    top: 1118px;
+    }
+    
+    .lay3 .blackbottom {
+    width: 1440px;
+    height: 41px;
+    left: 0px;
+    top: 463px;
+    background: #000000;
+    }
+    
+    .lay3 main {
+    width: 950px;
+    align-content: flex-start;
+    display: flex;
+    align-items: center;
+    }
+    
+    .lay3 .boxcontainer {
+    width: 964px;
+    position: absolute;
+    left: 300px;
+    top: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .lay3 .square {
+    margin-top: 10px;
+    margin-left: 140px;
+    background-color: #000000;
+    position: relative;
+    }
+    
+    @media only screen and (max-width: 800px) {
+    .lay3 header {
+    position: absolute;
+    width: 100%;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    background: #F2E9E9;
+    }
+    .lay3 nav {
+        position: absolute;
+        width: 100%;
+        height: 105px;
+        left: 0px;
+        top: 123px;
+        background: #E5E5E5;
+    }
+    
+    .lay3 .blacksquere {
+        position: absolute;
+        top: 20px;
+        left: 300px;
+        z-index: 1;
+    }
+    
+    .lay3 .yellow {
+        position: absolute;
+        width: 100%;
+        background: #EBEF18;
+    }
+    
+    .lay3 .blackbottom {
+        position: absolute;
+        width: 100%;
+        height: 41px;
+        left: 0px;
+        top: 463px;
+        background: #000000;
+    }
+    
+    .lay3 footer {
+        position: absolute;
+        width: 100%;
+        height: 41px;
+        left: 0px;
+        top: 2048px;
+        bottom: 0px;
+        background: #000000;
+    }
+    
+    .lay3 .blue {
+        display: none;
+    }
+    .lay3 .boxcontainer {
+        width: 100%;
+        position: absolute;
+        left: 10px;
+        top: 246px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .lay3 .square {
+        background-color: #000000;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px; 
+    }
+}
